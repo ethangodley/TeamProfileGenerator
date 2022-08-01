@@ -1,0 +1,31 @@
+/*Sets styling for heading container. Positions content to middle of container, changes background color, 
+and sets height*/
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: blueviolet;
+
+}
+/*Sets margin of title class to 0*/
+.title {
+    margin: 0;
+}
+/*sets positioning of content withing container class*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/*Sets sizing, margin, border, border shadow, and position of class*/
+.card {
+    height: 25vh;
+    width: 15vw;
+    margin: 7.5vw;
+    border: 0.5vh solid black;
+    text-align: center;
+    box-shadow: 0.5vh 0.5vh 1vh black;
+}
